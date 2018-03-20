@@ -1,0 +1,65 @@
+Dependencies for Project 'miniproj', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x532CC620)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\mini.c)(0x584AEF24)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\mini.o --omf_browse .\mini.crf --depend .\mini.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (GLCD.h)(0x5473E9B4)
+I (Serial.h)(0x50883B6E)
+I (CRIS_UTILS.h)(0x512714D2)
+F (.\CRIS_UTILS.c)(0x584AEF24)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\cris_utils.o --omf_browse .\cris_utils.crf --depend .\cris_utils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (GLCD.h)(0x5473E9B4)
+I (CRIS_UTILS.h)(0x512714D2)
+F (.\GLCD.c)(0x4AA947AA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\glcd.o --omf_browse .\glcd.crf --depend .\glcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (GLCD.h)(0x5473E9B4)
+I (font.h)(0x4A034846)
+F (.\GLCD_LPC1700.c)(0x5224E63E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\glcd_lpc1700.o --omf_browse .\glcd_lpc1700.crf --depend .\glcd_lpc1700.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\lpc17xx.h)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (GLCD.h)(0x5473E9B4)
+I (Font_24x16.h)(0x4E0CF6F6)
+F (.\Serial.c)(0x50883B6E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)
+I (Serial.h)(0x50883B6E)
+F (.\system_LPC17xx.c)(0x50883B6E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I"C:\Users\R()C:\Users\R()$h\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\\Desktop\Lectures\Embedded Systems\HW3\doraminiproject\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DLPC175x_6x-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.h)(0x4FF5A6B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA5942C)

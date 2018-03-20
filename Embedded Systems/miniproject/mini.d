@@ -1,0 +1,13 @@
+.\mini.o: mini.c
+.\mini.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\mini.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\mini.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H
+.\mini.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h
+.\mini.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\mini.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\mini.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\mini.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\mini.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h
+.\mini.o: GLCD.h
+.\mini.o: Serial.h
+.\mini.o: CRIS_UTILS.h
