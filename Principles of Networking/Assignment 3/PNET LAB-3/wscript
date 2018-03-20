@@ -1,0 +1,52 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+# def options(opt):
+#     pass
+
+# def configure(conf):
+#     conf.check_nonfatal(header_name='stdint.h', define_name='HAVE_STDINT_H')
+
+def build(bld):
+    module = bld.create_ns3_module('pnet', ['core'])
+    module.source = [
+        
+        'model/pnet-net-device.cc',
+        'model/pnet-channel.cc',
+  
+        'model/my-pnet-phy.cc',
+        'model/my-pnet-mac.cc',
+        'model/pnet-mac-header.cc',
+        'helper/pnet-helper.cc',
+        'helper/pnet-channel-helper.cc',
+        'helper/my-pnet-phy-helper.cc',
+        'helper/my-pnet-mac-helper.cc',
+        ]
+
+    module_test = bld.create_ns3_module_test_library('pnet')
+    module_test.source = [
+        'test/pnet-test-suite.cc',
+        ]
+
+    headers = bld(features='ns3header')
+    headers.module = 'pnet'
+    headers.source = [
+        
+        'model/pnet-net-device.h',
+        'model/pnet-channel.h',
+        'model/pnet-phy.h',
+        'model/my-pnet-phy.h',
+        'model/pnet-mac.h',
+        'model/my-pnet-mac.h',
+        'model/pnet-mac-header.h',
+        'helper/pnet-helper.h',
+        'helper/pnet-channel-helper.h',
+        'helper/my-pnet-phy-helper.h',
+        'helper/my-pnet-mac-helper.h',
+        
+        ]
+
+    if bld.env.ENABLE_EXAMPLES:
+        bld.recurse('examples')
+
+    # bld.ns3_python_bindings()
+
